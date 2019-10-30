@@ -1,0 +1,191 @@
+body {
+    background-color: #f5f5dd;
+    margin: 0;
+    font-size: 15px;
+}
+header {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+img {
+    margin-right: 5px;
+}
+.logo {
+    float: left;
+    width: 480px;
+    height: 70px;
+
+}
+.search {
+    text-align: right;
+    float: right;
+    width: 480px;
+    height: 70px;
+}
+.header-box {
+    width: 960px;
+    margin: 0 auto;
+}
+p {
+    padding: 5px;
+    margin: 0;
+}
+p.link {
+    float: right;
+}
+ul {
+    list-style: none;
+    padding: 5px;
+    background-color: #FFFFFF;
+    margin: 10px 0px 10px 0px;
+}
+header {
+    border-bottom: solid 1px #cccccc;
+}
+header li {
+    width: 20%;
+    float: left;
+    border-right: solid 1px #99bb22;
+    box-sizing: border-box;
+    text-align: center;
+}
+header li:last-child, nav li:last-child, footer li:last-child {
+    border: none;
+}
+header a {
+    text-decoration: none;
+    color: #664433;
+    display: block;
+    padding: 5px 0;
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+article ul {
+    font-size: 10px;
+    padding: 1px;
+}
+.title {
+    background-image: url(../img/icon/dish.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: 15px 50%;
+    background-color: #99bb22;
+    border-radius: 20px;
+    height: 25px;
+    /* clear: both; */
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 45px;
+}
+.main-view {
+    width: 100%;
+    height: auto;
+}
+nav {
+    float: left;
+    width: 200px;
+    margin: 0px 5px 0px 0px;
+}
+nav li {
+    border-bottom: dashed 1px #cccccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+article {
+    float: left;
+    display: inline-block;
+    width: 585px;
+    margin: 0px 0 0px 5px;
+}
+article li {
+    width: 20%;
+    float: left;
+    background-color: #FFFFFF;
+}
+article a {
+    text-decoration: none;
+    color: #fc8833;
+    font-weight: bold;
+}
+.new {
+    background-color: #FFFFFF;
+    height: 160px;
+    margin: 10px 0 5px 0;
+    padding: 5px;
+}
+.kantan img, .topics img {
+    float: left;
+}
+.topics {
+    background-color: #FFFFFF;
+    clear: both;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    height: 300px;
+}
+.p {
+    font-weight: bold;
+}
+.kantan {
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+.push-recipes {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.push-recipes:first-child {
+    margin-bottom: 0;
+    height: 200px;
+}
+.push-recipes a {
+    text-align: right;
+    font-weight: bold;
+}
+aside {
+    float: right;
+    width: 155px;
+    margin-left: 0px;
+}
+footer {
+    background-color: #ffffff;
+    overflow: hidden;
+    border-top: solid 1px #cccccc;
+    clear: left;
+}
+.footer-box {
+    width: 960px;
+    margin: 0 auto;
+}
+footer ul {
+    list-style: none;
+    padding: 5px;
+    background-color: #FFFFFF;
+    margin: auto;
+    font-weight: bold;
+    font-size: 12px;
+}
+footer li {
+    width: 150px;
+    float: left;
+    border-right: solid 1px #99bb22;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: #664433;
+    display: block;
+    padding: 5px 0;
+}
+footer p {
+    font-size: 12px;
+    color: #cccccc;
+    font-weight: bold;
+    clear: both;
+    text-align: center;
+}
